@@ -1,0 +1,53 @@
+.img-box {
+
+    width: 24%; /* 4 images. So 100/4 = 25%*/
+    
+    min-height: 60px;
+    
+    float: left; /* to place the images next to next*/
+    
+    }
+    
+    .img {
+    display: block; /* use the available width of .img-box*/
+    transition: all 1s ease;
+    border: 5px solid #fff;
+    max-width: 100%;
+    
+    }
+    .img-box:hover{
+      border: 5px solid purple;
+    }
+    .main{
+      align-items: center;
+      background:linear-gradient(to left ,#814096,#F83292);
+      color: #fff;    
+      display:flex;
+      height: 70px;
+      justify-content: center;
+        
+    }
+    div{
+
+      text-align: center;
+  }
+    h3{
+      font-size:20px;
+      margin: 1px;
+    }
+    footer{
+      align-items: center;
+      background:linear-gradient(to left ,#814096,#F83292);
+      color: #fff;
+      display: flex;
+      justify-content: space-around;
+      padding: 15px;
+     margin-top: 450px;
+     height: 150px;
+  }
+h2{
+
+    font-size: 18px;
+    height: 20px;
+
+}

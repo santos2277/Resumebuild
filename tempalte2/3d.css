@@ -1,0 +1,274 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    --webkit-font-smooting:antialised;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffd000;
+    padding: 0px;
+    height: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.logo img{
+  width: 250px;
+  
+    
+}
+.menu .list li{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin-right: 35px;
+}
+section.work{
+    background-color: rgb(0, 0, 0);
+}
+section.work .container h1{
+    text-align: center;
+    color: #ffd000;
+    margin-top: 10px;
+    font-size: 2rem;
+}
+section.work .container p{
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+}
+.img{
+    display: block;
+   
+
+}
+.grid {
+    display:block;
+    padding: 16px;
+    display: grid;
+    grid-gap: 16px;
+    
+     
+     
+}
+.card{
+    background-color: white;
+    margin-bottom: 16px;
+    padding: 60px;
+    width: 200px;
+    height: 250px;
+ }
+.cards{
+    perspective: 500px;
+}
+.card{
+    width: 350px;
+    height: 480px;
+    background: url(../img/images/tempate1.png) center no-repeat;
+    background-size: cover; border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 4px; 
+    position: relative; 
+    transform-style: preserve-3d;
+    will-change: transform; 
+    transition: transform .5s;
+
+}
+.card:hover{
+    transform: translateZ(10px) rotateX(20deg) rotateY(30deg);
+    border: 3px black solid;
+  
+}
+.card1{
+    width: 350px;
+    height: 480px;
+    background: url(../img/images/Template2.png) center no-repeat;
+    background-size: cover; border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 4px; 
+    position: relative; 
+    transform-style: preserve-3d;
+    will-change: transform; 
+    transition: transform .5s;
+
+}
+.card1:hover{
+    transform: translateZ(10px) rotateX(20deg) rotateY(30deg);
+    border: 3px black solid;
+  
+}
+.card2{
+    width: 350px;
+    height: 480px;
+    background: url(../img/images/Template3.png) center no-repeat;
+    background-size: cover; border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 4px; 
+    position: relative; 
+    transform-style: preserve-3d;
+    will-change: transform; 
+    transition: transform .5s;
+
+}
+.card2:hover{
+    transform: translateZ(10px) rotateX(20deg) rotateY(30deg);
+    border: 3px black solid;
+  
+}
+.card3{
+    width: 350px;
+    height: 480px;
+    background: url(../img/images/template4.png) center no-repeat;
+    background-size: cover; border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 4px; 
+    position: relative; 
+    transform-style: preserve-3d;
+    will-change: transform; 
+    transition: transform .5s;
+
+}
+.card3:hover{
+    transform: translateZ(10px) rotateX(20deg) rotateY(30deg);
+    border: 3px black solid;
+  
+}
+.card4{
+    width: 350px;
+    height: 480px;
+    background: url(../img/images/Template5.png) center no-repeat;
+    background-size: cover; border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 4px; 
+    position: relative; 
+    transform-style: preserve-3d;
+    will-change: transform; 
+    transition: transform .5s;
+
+}
+.card4:hover{
+    transform: translateZ(10px) rotateX(20deg) rotateY(30deg);
+    border: 3px black solid;
+  
+}
+.card5{
+    width: 350px;
+    height: 480px;
+    background: url(../img/images/template5.png) center no-repeat;
+    background-size: cover; border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 4px; 
+    position: relative; 
+    transform-style: preserve-3d;
+    will-change: transform; 
+    transition: transform .5s;
+
+}
+.card5:hover{
+    transform: translateZ(10px) rotateX(20deg) rotateY(30deg);
+    border: 3px black solid;
+  
+}
+
+.card-tittle{
+    text-align: center;
+}
+
+
+.card-title{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    right: 10px; 
+    transform: translateY(-50%); transition: transform .5s;
+}
+.card:hover .card-title{
+    transform: translateZ(50px);
+}
+ 
+ footer{
+    background-color: #ffd000;
+    text-align: center;
+    height: 200px;
+}
+footer span{
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    width: 25px;
+    margin-right: 15px;
+}
+footer .footer-logo{
+    margin-top: 5px;
+         width: 20%;
+    }
+footer .copyright{
+    margin-top: 25px;
+    color: rgb(0, 0, 0);
+}
+
+ @media (min-width: 300px){
+     .grid{
+        display: grid;
+        margin-left: 80px;
+        grid-template-columns: repeat(1,1fr);
+   
+     }
+     .logo img{
+
+        width: 250px;
+          
+      }
+      .menu .list li{
+        display: none;
+    }
+    
+    }
+     @media (min-width: 968px){
+        .grid{
+           display: grid;
+           grid-template-columns: repeat(2,1fr);
+      
+        }
+        @media (min-width: 1200px){
+            .grid{
+               display: grid;
+               grid-template-columns: repeat(3,1fr);
+          
+            }
+ }
+}
+
+
+
+@media screen and (max-width: 600px){
+    .menu{
+        width: 100px;
+        max-height: 0;
+        overflow: hidden;
+    }
+    .list{
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+    }
+    .navbar label{
+        display: inline-flex;
+        align-items: center;
+        cursor: pointer;
+    }
+    #toggler:checked~.menu{
+        max-height: 100%;
+    }
+    footer .footer-logo{
+         margin-top: 15px;
+             width: 50%;
+        }
+    
+}

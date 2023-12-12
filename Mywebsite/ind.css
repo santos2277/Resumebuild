@@ -1,0 +1,531 @@
+@import url(uttilities.css);
+:root{
+    --primary:#3DCFD#;
+    --dark:#161616;
+    --pure:#ffff;
+    --ternary:#898989;
+    --light:#2F2F2;
+}
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    --webkit-font-smooting:antialised;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+
+header{
+    background-color: #ffd000;  
+ clip-path:polygon(0 0, 100% 0, 100% 100%, 75% 85%, 0 100%);
+
+}
+
+.container{
+    max-width: 1152px;
+    padding:0 10px ;
+    margin: 0 auto;
+    
+}
+header nav .left .branding img{
+    width: 250px;
+
+}
+header nav .left a{
+    color:var(--pure);
+    text-decoration: none;
+    margin-right: 3rem;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+
+header nav .left a:hover{
+    color:black;
+
+}
+
+header nav{
+    padding: 2rem 0;
+    
+}
+header nav .branding{
+    margin-right: 2rem;
+    
+}
+.btn{  
+    color: white;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 1px solid transparent;
+    outline: none;
+    cursor:pointer;
+}
+.btn-primary{
+    background: black;
+    transition: all .3s ease-in;
+    
+}
+.btn-primary:hover{
+    background: transparent;
+    border-color:black ;
+    color: black;
+    
+  
+}
+.hero .left img{
+    width: 350px;
+}
+.hero .right{
+    color: rgb(255, 255, 255);
+}
+.hero .right h6{
+    font-size: 1.5rem;
+    color: #000000;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+
+}
+.hero .right h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.hero .right h1 span{
+    color: rgb(28, 28, 26);
+}
+.hero .right p{
+    
+    line-height:1.9;
+    margin-bottom: 2rem;
+}
+.btn-secondary{
+    background: black;
+    transition: all .3s ease-in;
+
+   
+}
+.btn-secondary:hover{
+    background: transparent;
+    border-color:black ;
+    color: black;
+}
+
+.right {
+    margin-bottom: 6rem;
+}
+section.about .flex-1 img{
+    width: 350px;
+    height: 450px;
+    margin-left: 90px;
+
+}
+section.about .about-me{
+    width: 300px;
+    height: 450px;
+    
+}
+section.about h1{
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    
+}
+section.about h1 span{
+    font-size: 2rem;
+    color:#ffe606;    
+    
+}
+section.about h3{
+    color:#ffe606;    
+    font-size: 1rem;
+    margin-bottom:
+     1rem;
+}
+section.about p{
+    color: white;
+    line-height: 1.8;
+}
+section.about .social a{
+    display: flex;
+    background: #161616;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    margin: 4px;
+    margin-bottom: 15px;
+    
+
+}
+section.about .social a:hover{
+    background: #ffd000;
+    color: #161616;
+    border-color: black;
+
+    transition: all .3s ease;
+
+}
+section.about img{
+    box-shadow: 25px;
+
+}
+.section-heading{
+    color: rgb(24, 24, 24);
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 0.5;
+    padding-top: 25px;
+
+}
+
+.section-heading +p{
+    color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+section.services{
+    height: 1000px;
+}
+section.services .card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3 , 2fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 5rem;
+
+}
+section.services{
+    background-color: #ffd000;  
+    height: 1058px;
+    clip-path: polygon(0 0, 100% 0%, 100% 95%, 0 100%);
+
+    
+}
+
+section.services .card-wrapper .card{
+    position: relative;
+    background-color: black;
+    padding:3rem 2rem;
+    margin-top: 50px;
+    padding-top: 6rem;
+    text-align: center;
+    transition: all .5s ease;
+
+
+}
+section.services .card-wrapper .card img{
+    color: white;
+    position: absolute;
+    top:-3.5rem;
+    left: 50%;
+    transform: translateX(-100%);
+}
+section.services .card-wrapper .card h2{
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px white solid;
+}
+section.services .card-wrapper .card p{
+    font-size: 1rem;
+    color:#ffd000;    
+    line-height: 1rem;
+}
+section.services .card-wrapper .card:hover{
+    background-color: #ffd000;
+    border: 3px black solid;
+
+}
+
+section.services .card-wrapper .card:hover h2{
+    color: rgb(255, 255, 255);
+}
+section.services .card-wrapper .card:hover p{
+    color: black;
+}
+.freelencer{
+    text-align: center;
+    margin-top: 25px;
+    height: 250px;
+    
+}  
+
+.review h1{
+    text-align: center;
+    color: #ffd000;
+
+}
+.review p{
+    color: black;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+section.freelencer h1{
+    color: #ffd000;
+
+}
+section.freelencer p{
+    color: rgb(255, 255, 255);
+    margin-bottom: 25px;
+
+} 
+section.freelencer .btn-secondary{
+    color: black;
+    background-color: white;
+    transition: all .3s ease-in;
+    
+}
+section.freelencer .btn-secondary:hover{
+    background: transparent;
+    border-color:rgb(255, 255, 255) ;
+    color: rgb(251, 251, 251);
+}
+  
+section.review{
+    background-color: #ffd000;
+       height: 350px;
+
+}
+section.review h1{
+     align-content: center;
+     font-size: 2.5rem;
+     color: rgb(0, 0, 0);
+     
+     padding-top: 50px;
+
+ }
+ section.review .btn{
+   text-align: center;
+    margin-top: 20px;
+
+ }
+
+
+section.work{
+    background-color: black;  
+
+    
+}
+.work .container span{
+    color: white;
+
+}
+.work .container h1{
+    color: #ffd000;
+
+}
+.work .container p{
+    color: white;
+
+}
+section.work .card-wrapper{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 2rem;
+}
+section.work .card-wrapper .card{
+    position: relative;
+    height: 255px;
+    margin-bottom: 15px;
+}
+section.work .card-wrapper .card .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:#ffd000aa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: all .3s ease;
+
+}
+section.work .card-wrapper .card:hover .overlay{ 
+    opacity: 1;
+
+}
+section.work .card-wrapper .card .overlay span{
+    color: rgb(255, 255, 255);
+      text-decoration: none;
+  
+  }
+  
+section.work .card-wrapper .card .overlay a{
+  color: black;
+    text-decoration: none;
+
+}
+section.work .card-wrapper .card img{
+    width: 100%;
+    height: 100%;
+   
+}
+section.Contact{
+    background-color: #ffd000;
+    height: 800px;
+
+}
+ section.Contact .card-wrapper{
+    
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+}
+section.Contact .card-wrapper .card{
+    text-align: center;
+    
+}
+section.Contact .card-wrapper .card span { 
+   
+    margin-bottom: 1rem;
+    
+}
+section.Contact .card-wrapper .card h1{
+   
+    margin-bottom: 1rem;
+    
+}
+section.Contact .card-wrapper .card h6{
+    font-size: 1rem;
+    margin-bottom:4rem ;
+    
+}
+section.Contact .input-wrap {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1rem;
+    margin-bottom: 2rem;
+
+    
+
+}
+section.Contact .input-wrap-2{
+    display: flex;
+   flex-direction: column;
+    margin-bottom: 2rem;
+
+   
+    
+}
+section.Contact .input-wrap-2 input{
+   margin-bottom: 2rem;
+   border: 1px solid gray;
+    
+}
+section.Contact input{
+    padding: 0.5rem;
+    font-size: 1rem;
+
+     
+ }
+ section.Contact .input-wrap-2 textarea{
+    padding: 0.5rem;
+    border: 1px solid gray;
+
+
+ }
+ section.Contact input:focus{
+    outline: none;
+
+ }
+ section.Contact .input-wrap-2 textarea:focus{
+     outline: none;
+ }
+ section.Contact .btn-wrapper{
+     text-align: center;
+     margin-top: 2rem;
+     margin-bottom: 15px;
+ }
+ footer{
+     background-color: black;
+     text-align: center;
+     height: 200px;
+ }
+ footer span{
+     margin-top: 10px;
+     color: white;
+     width: 25px;
+     margin-right: 15px;
+ }
+ 
+ footer .copyright{
+     margin-top: 25px;
+     color: white;
+ }
+ footer .footer-logo{
+    margin-top: 5px;
+     width: 20%;
+
+ }
+
+ @media (max-width:576px){
+    header nav a{
+        display: none;
+    }
+    .hero{
+        flex-direction: column;
+    }
+    header{
+        clip-path:polygon(0 0, 100% 0, 100% 100%, 69% 95%, 0 100%);
+
+
+    }
+    .about-inner-wrap{
+        flex-direction: column;
+    }
+     section.services .card-wrapper{
+        grid-template-columns: repeat(1,1fr);
+    }
+    section.work .card-wrapper{
+        grid-template-columns: repeat(1,1fr);
+
+    }
+    .section-heading {
+        color: rgb(24, 24, 24);
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 1rem;
+        padding-top: 35px;
+    }
+    section.services .card-wrapper .card {
+        position: relative;
+        background-color: black;
+        padding: 10rem 5rem;
+        margin-top: 1px;
+        padding-top: 6rem;
+        text-align: center;
+        transition: all .5s ease;
+    }
+    section.services {
+        background-color: #ffd000;
+        height: 2958px;
+        clip-path: polygon(0 0, 100% 0%, 100% 95%, 0 100%);
+    }
+    section.Contact {
+        background-color: #ffd000;
+        height: 1200px;
+    }
+
+    section.Contact .card-wrapper {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    footer .footer-logo {
+        margin-top: 5px;
+        ma
+        width: 50%;
+    }
+
+ }
